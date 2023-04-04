@@ -1,13 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\Core\core.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.4"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    
+    
   </PropertyGroup>
-
 </Project>
